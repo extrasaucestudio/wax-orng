@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mtlcom/wax-orng/tests/contracts/randreceiver.cpp
+eosio/eosio.hpp
+-
+eosio/print.hpp
+-
+stdint.h
+-
+string
+-
+

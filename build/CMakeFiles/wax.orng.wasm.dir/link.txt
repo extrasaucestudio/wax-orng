@@ -1,0 +1,1 @@
+/usr/local/eosio.cdt/bin/eosio-ld  CMakeFiles/wax.orng.wasm.dir/src/orng.cpp.o -o wax.orng.wasm 

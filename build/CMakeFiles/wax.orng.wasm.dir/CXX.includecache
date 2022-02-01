@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/orng.hpp
+eosio/eosio.hpp
+-
+stdint.h
+-
+string
+-
+vector
+-
+
+/home/mtlcom/wax-orng/src/orng.cpp
+orng.hpp
+/home/mtlcom/wax-orng/src/orng.hpp
+contract_info.hpp
+/home/mtlcom/wax-orng/src/contract_info.hpp
+eosio/check.hpp
+-
+eosio/crypto.hpp
+-
+eosio/print.hpp
+-
+tuple
+-
+
+contract_info.hpp
+cstdint
+-
+cstddef
+-
+eosio/chain/name.hpp
+-
+eosio/name.hpp
+-
+

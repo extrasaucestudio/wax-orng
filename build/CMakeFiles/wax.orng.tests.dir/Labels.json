@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mtlcom/wax-orng/build/CMakeFiles/wax.orng.tests"
+		},
+		{
+			"file" : "/home/mtlcom/wax-orng/build/CMakeFiles/wax.orng.tests.rule"
+		},
+		{
+			"file" : "/home/mtlcom/wax-orng/build/CMakeFiles/wax.orng.tests-complete.rule"
+		},
+		{
+			"file" : "/home/mtlcom/wax-orng/build/wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-install.rule"
+		},
+		{
+			"file" : "/home/mtlcom/wax-orng/build/wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-mkdir.rule"
+		},
+		{
+			"file" : "/home/mtlcom/wax-orng/build/wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-download.rule"
+		},
+		{
+			"file" : "/home/mtlcom/wax-orng/build/wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-update.rule"
+		},
+		{
+			"file" : "/home/mtlcom/wax-orng/build/wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-patch.rule"
+		},
+		{
+			"file" : "/home/mtlcom/wax-orng/build/wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-configure.rule"
+		},
+		{
+			"file" : "/home/mtlcom/wax-orng/build/wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-build.rule"
+		},
+		{
+			"file" : "/home/mtlcom/wax-orng/build/wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"wax.orng.tests"
+		],
+		"name" : "wax.orng.tests"
+	}
+}

@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+5a3b07a1e0a6067e379309003145c8d4 CMakeFiles/wax.orng.tests
+c0e0f8ce295aa300ef8629ff69c0fe77 CMakeFiles/wax.orng.tests-complete
+d78a311624b1039b9112e1afab1126bb wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-build
+2f994d8453f8a02da3c5c876906d0bc4 wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-configure
+eb4dc8db0e7038dc35a86e89022703cc wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-download
+3d5e75eff41e3fc1f0361b770d40a7c2 wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-install
+fd40b6bc8f6f7c9ad1799ba9e670ef8f wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-mkdir
+4e2c1fa5e0c646a19685aa62b17e1478 wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-patch
+c3aa91bd19a249aeaed4b675555085ac wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-test
+9280200aec335720822badfede44eb9b wax.orng.tests-prefix/src/wax.orng.tests-stamp/wax.orng.tests-update

@@ -1,0 +1,4 @@
+/home/mtlcom/wax-orng/build/tests/CMakeFiles/edit_cache.dir
+/home/mtlcom/wax-orng/build/tests/CMakeFiles/rebuild_cache.dir
+/home/mtlcom/wax-orng/build/tests/CMakeFiles/utests.dir
+/home/mtlcom/wax-orng/build/tests/CMakeFiles/test.dir

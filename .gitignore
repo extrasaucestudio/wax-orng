@@ -1,6 +1,5 @@
 cmake-build-*
 .idea
-build
 .settings
 .project
 .cproject

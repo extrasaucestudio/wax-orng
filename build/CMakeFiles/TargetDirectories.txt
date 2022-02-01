@@ -1,0 +1,6 @@
+/home/mtlcom/wax-orng/build/CMakeFiles/test.dir
+/home/mtlcom/wax-orng/build/CMakeFiles/rebuild_cache.dir
+/home/mtlcom/wax-orng/build/CMakeFiles/wax.orng.tests.dir
+/home/mtlcom/wax-orng/build/CMakeFiles/edit_cache.dir
+/home/mtlcom/wax-orng/build/CMakeFiles/wax.orng.wasm.dir
+/home/mtlcom/wax-orng/build/CMakeFiles/wax.orng.tests.randreceiver.wasm.dir

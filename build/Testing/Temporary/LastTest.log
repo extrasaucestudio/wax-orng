@@ -1,0 +1,257 @@
+Start testing: Feb 01 13:41 UTC
+----------------------------------------------------------
+1/1 Testing: AllTests
+1/1 Test: AllTests
+Command: "/home/mtlcom/wax-orng/build/tests/utests" "--log_level=all"
+Directory: /home/mtlcom/wax-orng/build
+"AllTests" start time: Feb 01 13:41 UTC
+Output:
+----------------------------------------------------------
+Running 19 test cases...
+[1;34;49mEntering test module "WaxTests"
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(30): Entering test suite "pause_tests"
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(56): Entering test case "check_contract_pause_api"
+warn  2022-02-01T13:41:36.339 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:36.339 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:36.370 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:36.370 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+info  2022-02-01T13:41:36.394 utests    transaction_context.cp:103    deadline_timer       ] Using 15us deadline timer for checktime: min:3us max:47us mean:6us stddev:4us
+[0;39;49m/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(59): [1;32;49minfo: check contract_is_paused() has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(62): [1;32;49minfo: check !contract_is_paused() has passed[0;39;49m
+info  2022-02-01T13:41:36.441 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:36.442 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(56): Leaving test case "check_contract_pause_api"; testing time: 228227us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(67): Entering test case "pause_a_contract_from_other_user_than_contract_user"
+warn  2022-02-01T13:41:36.482 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:36.482 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:36.538 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:36.538 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(72): [1;32;49minfo: check 'exception "missing_auth_exception" raised as expected' has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(73): [1;32;49minfo: check 'exception "missing_auth_exception" raised as expected' has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(76): [1;32;49minfo: check 'exception "transaction_exception" raised as expected' has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(77): [1;32;49minfo: check 'exception "transaction_exception" raised as expected' has passed[0;39;49m
+info  2022-02-01T13:41:36.621 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:36.621 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(67): Leaving test case "pause_a_contract_from_other_user_than_contract_user"; testing time: 228995us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(82): Entering test case "check_paused_actions"
+warn  2022-02-01T13:41:36.711 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:36.711 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:36.744 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:36.744 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(88): [1;32;49minfo: check 'exception "eosio_assert_message_exception" raised as expected' has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(92): [1;32;49minfo: check 'exception "eosio_assert_message_exception" raised as expected' has passed[0;39;49m
+info  2022-02-01T13:41:36.844 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:36.844 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(82): Leaving test case "check_paused_actions"; testing time: 225278us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/pause_tests.cpp(30): Leaving test suite "pause_tests"; testing time: 682734us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/version_tests.cpp(32): Entering test suite "version_tests"
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/version_tests.cpp(42): Entering test case "validate_int_and_str_values"
+[0;39;49m/home/mtlcom/wax-orng/tests/src/version_tests.cpp(55): [1;32;49minfo: check version_from_int_value.str() == version::cstr_value has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/version_tests.cpp(42): Leaving test case "validate_int_and_str_values"; testing time: 191us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/version_tests.cpp(58): Entering test case "check_contract_version_api"
+warn  2022-02-01T13:41:36.948 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:36.948 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:36.980 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:36.980 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m[1;36;49mTest contract version = 1.3.0.0[0;39;49m
+[1;36;49m>> Output from action [version]:[0;39;49m
+[1;36;49mContract version = 1.3.0.0[0;39;49m
+/home/mtlcom/wax-orng/tests/src/version_tests.cpp(64): [1;32;49minfo: check version::int_value == get_version_from_cfg() has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/version_tests.cpp(70): [1;32;49minfo: check 'exception "eosio_assert_message_exception" raised as expected' has passed[0;39;49m
+info  2022-02-01T13:41:37.065 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:37.065 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/version_tests.cpp(58): Leaving test case "check_contract_version_api"; testing time: 167121us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/version_tests.cpp(32): Leaving test suite "version_tests"; testing time: 167464us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(29): Entering test suite "setsigpubkey_tests"
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(31): Entering test case "perms_test"
+warn  2022-02-01T13:41:37.104 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.104 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:37.132 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.132 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(44): [1;32;49minfo: check 'exception "authorization_exception" raised as expected' has passed[0;39;49m
+info  2022-02-01T13:41:37.214 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:37.214 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(31): Leaving test case "perms_test"; testing time: 130864us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(50): Entering test case "happy_path_test"
+warn  2022-02-01T13:41:37.235 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.235 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:37.263 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.263 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(58): [1;32;49minfo: check sigpubkey.exponent == public_key_exponent has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(59): [1;32;49minfo: check sigpubkey.modulus == public_key_modulus has passed[0;39;49m
+info  2022-02-01T13:41:37.330 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:37.331 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(50): Leaving test case "happy_path_test"; testing time: 129166us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(62): Entering test case "no_modulus_leading_zeroes"
+warn  2022-02-01T13:41:37.365 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.365 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:37.393 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.393 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(66): [1;32;49minfo: check 'exception "eosio_assert_message_exception" raised as expected' has passed[0;39;49m
+info  2022-02-01T13:41:37.467 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:37.467 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(62): Leaving test case "no_modulus_leading_zeroes"; testing time: 140898us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(69): Entering test case "no_empty_modulus"
+warn  2022-02-01T13:41:37.508 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.508 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:37.560 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.560 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(73): [1;32;49minfo: check 'exception "eosio_assert_message_exception" raised as expected' has passed[0;39;49m
+info  2022-02-01T13:41:37.651 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:37.652 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(69): Leaving test case "no_empty_modulus"; testing time: 178967us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(76): Entering test case "replacing_existing_key_test"
+warn  2022-02-01T13:41:37.685 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.685 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:37.743 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.743 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(87): [1;32;49minfo: check sigpubkey.exponent == public_key1_exponent has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(88): [1;32;49minfo: check sigpubkey.modulus == public_key1_modulus has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(94): [1;32;49minfo: check sigpubkey.exponent == public_key2_exponent has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(95): [1;32;49minfo: check sigpubkey.modulus == public_key2_modulus has passed[0;39;49m
+info  2022-02-01T13:41:37.816 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:37.816 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(76): Leaving test case "replacing_existing_key_test"; testing time: 162041us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/setsigpubkey_tests.cpp(29): Leaving test suite "setsigpubkey_tests"; testing time: 742266us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/requestrand_tests.cpp(28): Entering test suite "requestrand_tests"
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/requestrand_tests.cpp(30): Entering test case "happy_path"
+warn  2022-02-01T13:41:37.847 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.847 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:37.877 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.877 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/requestrand_tests.cpp(38): [1;32;49minfo: check job.id == 0 has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/requestrand_tests.cpp(39): [1;32;49minfo: check job.assoc_id == 1 has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/requestrand_tests.cpp(40): [1;32;49minfo: check job.signing_value == signing_value has passed[0;39;49m
+info  2022-02-01T13:41:37.947 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:37.947 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/requestrand_tests.cpp(30): Leaving test case "happy_path"; testing time: 123437us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/requestrand_tests.cpp(45): Entering test case "reuse_signing_value"
+warn  2022-02-01T13:41:37.970 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.970 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:37.997 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:37.997 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/requestrand_tests.cpp(53): [1;32;49minfo: check 'exception "eosio_assert_message_exception" raised as expected' has passed[0;39;49m
+info  2022-02-01T13:41:38.064 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:38.065 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/requestrand_tests.cpp(45): Leaving test case "reuse_signing_value"; testing time: 157255us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/requestrand_tests.cpp(28): Leaving test suite "requestrand_tests"; testing time: 280780us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/setrand_tests.cpp(30): Entering test suite "setrand_tests"
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/setrand_tests.cpp(40): Entering test case "happy_path"
+warn  2022-02-01T13:41:38.128 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:38.128 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:38.155 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:38.155 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m[1;36;49m>> Output from action [setrand]:[0;39;49m
+[1;36;49mreceiverand called: assoc_id=10, random_value=332a7ee822d08248371daf753f353b1b4ad88b1ec509260530a4b1e45ef0cf50
+[0;39;49m
+/home/mtlcom/wax-orng/tests/src/setrand_tests.cpp(57): [1;32;49minfo: check result.assoc_id == assoc_id has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/setrand_tests.cpp(58): [1;32;49minfo: check result.random_value == fc::sha256::hash(random_value) has passed[0;39;49m
+info  2022-02-01T13:41:38.239 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:38.240 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/setrand_tests.cpp(40): Leaving test case "happy_path"; testing time: 202315us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/setrand_tests.cpp(30): Leaving test suite "setrand_tests"; testing time: 202361us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(29): Entering test suite "killjobs_tests"
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(50): Entering test case "happy_path"
+warn  2022-02-01T13:41:38.359 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:38.359 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:38.404 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:38.404 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(57): [1;32;49minfo: check job.id == id has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(60): [1;32;49minfo: check is_jobs_table_empty() has passed[0;39;49m
+info  2022-02-01T13:41:38.472 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:38.472 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(50): Leaving test case "happy_path"; testing time: 170006us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(65): Entering test case "kill_all_jobs"
+warn  2022-02-01T13:41:38.558 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:38.558 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:38.593 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:38.593 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(74): [1;32;49minfo: check job.id == id has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(74): [1;32;49minfo: check job.id == id has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(74): [1;32;49minfo: check job.id == id has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(78): [1;32;49minfo: check is_jobs_table_empty() has passed[0;39;49m
+info  2022-02-01T13:41:38.662 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:38.662 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(65): Leaving test case "kill_all_jobs"; testing time: 190034us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(83): Entering test case "kill_inexistent_job"
+warn  2022-02-01T13:41:38.690 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:38.690 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:38.719 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:38.719 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(88): [1;32;49minfo: check job.id == 0 has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(94): [1;32;49minfo: check job.id == 0 has passed[0;39;49m
+info  2022-02-01T13:41:38.837 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:38.838 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(83): Leaving test case "kill_inexistent_job"; testing time: 168568us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(99): Entering test case "kill_jobs_with_an_empty_table"
+warn  2022-02-01T13:41:38.916 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:38.917 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:38.952 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:38.952 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+info  2022-02-01T13:41:39.028 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:39.029 utests    block_log.cpp:152             open                 ] Index is nonempty
+[0;39;49m/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(99): Leaving test case "kill_jobs_with_an_empty_table"; testing time: 205550us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/killjobs_tests.cpp(29): Leaving test suite "killjobs_tests"; testing time: 734371us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(30): Entering test suite "autoindex_tests"
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(36): Entering test case "happy_path"
+warn  2022-02-01T13:41:39.064 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:39.064 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:39.105 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:39.105 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(44): [1;32;49minfo: check job.id == 0 has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(45): [1;32;49minfo: check job.assoc_id == 1 has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(46): [1;32;49minfo: check job.signing_value == signing_value has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(52): [1;32;49minfo: check job.id == 1 has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(53): [1;32;49minfo: check job.assoc_id == 1 has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(54): [1;32;49minfo: check job.signing_value == signing_value has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(61): [1;32;49minfo: check job.id == 2 has passed[0;39;49m
+info  2022-02-01T13:41:39.196 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:39.196 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(36): Leaving test case "happy_path"; testing time: 167978us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(66): Entering test case "delete_several"
+warn  2022-02-01T13:41:39.235 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:39.235 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+warn  2022-02-01T13:41:39.279 utests    controller.cpp:542            init                 ] No existing chain state or fork database. Initializing fresh blockchain state and resetting fork database.
+warn  2022-02-01T13:41:39.279 utests    controller.cpp:432            initialize_blockchai ] Initializing new blockchain with genesis state
+[0;39;49m/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(79): [1;32;49minfo: check job.id == 0 has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(81): [1;32;49minfo: check job.id == 1 has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(83): [1;32;49minfo: check job.id == 2 has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(85): [1;32;49minfo: check job.id == 3 has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(87): [1;32;49minfo: check job.id == 4 has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(89): [1;32;49minfo: check job.id == 5 has passed[0;39;49m
+/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(97): [1;32;49minfo: check job.id == 6 has passed[0;39;49m
+info  2022-02-01T13:41:39.594 utests    block_log.cpp:125             open                 ] Log is nonempty
+info  2022-02-01T13:41:39.594 utests    block_log.cpp:152             open                 ] Index is nonempty
+/usr/local/wax-blockchain/include/eosio/testing/tester.hpp(367): [1;32;49minfo: check validate() == true has passed[0;39;49m
+[1;34;49m/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(66): Leaving test case "delete_several"; testing time: 389921us
+[0;39;49m[1;34;49m/home/mtlcom/wax-orng/tests/src/autoindex_tests.cpp(30): Leaving test suite "autoindex_tests"; testing time: 557996us
+[0;39;49m[1;34;49mLeaving test module "WaxTests"; testing time: 3368216us
+[0;39;49m
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   3.81 sec
+----------------------------------------------------------
+Test Passed.
+"AllTests" end time: Feb 01 13:41 UTC
+"AllTests" time elapsed: 00:00:03
+----------------------------------------------------------
+
+End testing: Feb 01 13:41 UTC

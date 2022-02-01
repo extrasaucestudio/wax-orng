@@ -1,0 +1,1 @@
+/usr/local/eosio.cdt/bin/eosio-ld  CMakeFiles/wax.orng.tests.randreceiver.wasm.dir/tests/contracts/randreceiver.cpp.o -o wax.orng.tests.randreceiver.wasm 
